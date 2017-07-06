@@ -975,7 +975,13 @@ section h3.section-subheading {
     font-size: large;
     padding-left: 6%;
     }
-
+    .write-inside-iscriviti {
+    font-family: 'Rajdhani',  sans-serif;
+	font-size: xx-large;
+	font-weight: 600;    
+    }
+    
+    
     h2.section-heading{
 	    padding-bottom:3%;
     }
