@@ -43,28 +43,3 @@
 }(jQuery));
 var $mcj = jQuery.noConflict(true);
  // End of use strict
-
-
-var app=angular.module('app', ['ngAnimate', 'ngRoute', 'simple-slideshow']);
-app.controller("myCtrl", ['$scope', function($scope){
-	
-	$scope.bool=[];
-	$scope.bool[0]=false;
-	$scope.bool[1]=false;
-	$scope.bool[2]=false;
-	$scope.onOff=true;
-	$scope.slides=[
-		{
-			name:"not my cat",
-			url: "img/scegliMeta.jpeg"
-		},
-		{
-			name:"halo giacomo",
-			url:" img/conosciStudenti.jpg"
-		}
-	];
-	setTimeout(function(){
-		console.log("bool", $scope.bool)
-		}, 6000);
-		
-}]);
