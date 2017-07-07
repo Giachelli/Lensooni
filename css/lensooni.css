@@ -918,6 +918,7 @@ section h3.section-subheading {
         background-size:  100% 100%;
         background-attachment:  fixed;
         background-position:  center center;
+        padding-bottom: 15%;
 /*         height: 95vh; */
     }
     
@@ -1056,6 +1057,7 @@ section h3.section-subheading {
     .sfondo-form{
 	    background-color: transparent;
 	    display: block;
+	    padding-top:2%;
 	    
     }
     
