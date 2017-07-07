@@ -2,6 +2,16 @@
 
 (function($) {
     "use strict"; // Start of use strict
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+    fnames[1]='FNAME';
+    ftypes[1]='text';
+    fnames[2]='LNAME';
+    ftypes[2]='text';
+    fnames[3]='BIRTHDAY';
+    ftypes[3]='birthday';
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
@@ -30,7 +40,9 @@
         }
     })
 
-})(jQuery); // End of use strict
+}(jQuery));
+var $mcj = jQuery.noConflict(true);
+ // End of use strict
 
 
 var app=angular.module('app', ['ngAnimate', 'ngRoute', 'simple-slideshow']);

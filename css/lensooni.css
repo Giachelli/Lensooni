@@ -633,7 +633,7 @@ img::-moz-selection {
     }
     .separator {
         background-color: #222222;
-        padding: 3px;
+        padding: 2%;
     }
     .separator-char {
         font-family:  'Rajdhani',  sans-serif;
@@ -701,9 +701,47 @@ img::-moz-selection {
         padding-top: 20%;
         color:white;
     }
+    .write-inside-iscriviti {
+	    font-family: 'Rajdhani',  sans-serif;
+	    font-weight: 500;
+	    font-size: x-large;
+	    padding-top: 20%;
+    }
+    		    
+     .label-font {
+	    color: white;
+	    font-size: large;
+	    font-family: 'Rajdhani',  sans-serif;
+	    font-weight: 500;
+    }
+       .label-font-email {
+	    color: white;
+	    font-size: large;
+	    font-family: 'Rajdhani',  sans-serif;
+	    font-weight: 500;
+	    padding-left: 0%;
+    }
+    
+    .piuSinistra{
+	    padding-left: 5%;
+    }
+
     
     .stacco3 {
 	    padding-bottom: 20%;
+    }
+      .campi-obbligatori {
+    font-family: 'Rajdhani',  sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color:white;
+    }
+    .btn-xl-estensione {
+    border-radius: 33px;
+    }
+    
+     .btn-more-left {
+	    padding-left: 70%;
     }
 /*
     #testoSottoFase1{
@@ -718,6 +756,7 @@ img::-moz-selection {
         padding-top: 20%;
     }
     
+   
     .iconsPosition{
 	    padding-left: 2%;
     }
@@ -975,10 +1014,18 @@ section h3.section-subheading {
     font-size: large;
     padding-left: 6%;
     }
+    
+    .campi-obbligatori  {
+    font-family: 'Rajdhani',  sans-serif;
+    font-weight: 500;
+    font-size: large;
+    color:white;
+    }
+    
     .write-inside-iscriviti {
     font-family: 'Rajdhani',  sans-serif;
-	font-size: xx-large;
-	font-weight: 600;    
+	font-size: x-large;
+	font-weight: 500;    
     }
     
     
@@ -1004,6 +1051,38 @@ section h3.section-subheading {
 	    padding-left: 22%;
 	    padding-bottom: 30%;
     }
+    
+    .sfondo-form{
+	    background-color: transparent;
+	    display: block;
+	    
+    }
+    
+    .label-font {
+	    color: white;
+	    font-size: large;
+	    font-family: 'Rajdhani',  sans-serif;
+	    font-weight: 500;
+    }
+    
+    .sfondo-bottone{
+	    background-image: url("../img/hashtagIcon1.png");
+	    color:red;
+	    height: 300px;
+	    width: 300px;
+    }
+    
+    .piuSinistra{
+	    margin-left: 0.72%;
+    }
+    
+    .btn-xl-estensione {
+	    border-radius: 33px;
+    }
+    
+    .btn-more-left {
+	    padding-left: 60%;
+    }		    
     
 
 }
