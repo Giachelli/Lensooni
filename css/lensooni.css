@@ -665,7 +665,7 @@ img::-moz-selection {
     
     .write-inside {
         font-family: 'Rajdhani',  sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: medium;
     }
     
@@ -742,6 +742,7 @@ img::-moz-selection {
     
      .btn-more-left {
 	    padding-left: 70%;
+	    padding-top:10%;
     }
 /*
     #testoSottoFase1{
