@@ -730,6 +730,12 @@ img::-moz-selection {
     .stacco3 {
 	    padding-bottom: 20%;
     }
+     .sfondo-form{
+	    background-color: transparent;
+	    display: block;
+	    padding-top:4%;
+	    
+    }
       .campi-obbligatori {
     font-family: 'Rajdhani',  sans-serif;
     font-weight: 500;
